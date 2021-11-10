@@ -188,6 +188,13 @@ function doubleClicked() {
   saveCanvas("vaporwave-art", "jpg");
 }
 
+function keyPressed() {
+  // pressing S key
+  if (keyCode === 83) {
+    saveCanvas("vaporwave-art", "jpg");
+  }
+}
+
 windowResized = function () {
   resizeCanvas(windowWidth, windowHeight);
   background(bgColor);
