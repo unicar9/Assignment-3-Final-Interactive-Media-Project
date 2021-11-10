@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos&family=VT323&display=swap");
+
+html,
+body {
+  font-family: "Tinos", serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  color: #fff;
+  position: absolute;
+  margin: 2em;
+}
+
+a {
+  color: #fff;
+}
+
+.title {
+  font-family: "VT323", monospace;
+  font-size: 2em;
+  color: #f4631f;
+}
+
+.info {
+  font-size: 1.5em;
+}
+
+.info > a {
+  font-size: 20px;
+}
+
+.images-wrapper {
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.audio-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.palette {
+  width: 100px;
+}
+
+.btn {
+  font-family: "VT323", monospace;
+  font-size: 1.3em;
+  padding: 0.3em 1.2em;
+  text-decoration: none;
+  margin-top: 2em;
+  cursor: pointer;
+  background-color: #f4631f;
+  color: #fff;
+}
+
+img[alt="elems"] {
+  display: none;
+}
