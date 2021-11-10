@@ -2,6 +2,10 @@
 
 ## [Demo](https://unicar9.github.io/Assignment-3-Final-Interactive-Media-Project/)
 
+---
+
+![vaporwave-art](vaporwave-art.jpg)
+
 ## Project Description:
 
 This is a creative interactive media project featuring vaporwave aesthetic.
@@ -10,7 +14,7 @@ This is a creative interactive media project featuring vaporwave aesthetic.
 
 - Drag and drop vaporwave style images (example images provided in waporwave-elems folder)
 - Upload vaporwave style music
-- Choose vaporvave color scheme
+- Choose one vaporvave color scheme from the options
 
 ### Interaction:
 
