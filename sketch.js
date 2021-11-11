@@ -184,10 +184,6 @@ function mousePressed() {
   decoratingObjs.push(new Obj3d(mouseX, mouseY));
 }
 
-function doubleClicked() {
-  saveCanvas("vaporwave-art", "jpg");
-}
-
 function keyPressed() {
   // pressing S key
   if (keyCode === 83) {
