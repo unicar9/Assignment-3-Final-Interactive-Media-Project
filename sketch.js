@@ -181,10 +181,14 @@ function rotateBox(num) {
 }
 
 function mousePressed() {
+  if (!startAnimation) return;
+
   decoratingObjs.push(new Obj3d(mouseX, mouseY));
 }
 
 function keyPressed() {
+  if (!startAnimation) return;
+
   // pressing S key
   if (keyCode === 83) {
     saveCanvas("vaporwave-art", "jpg");
